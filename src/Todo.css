@@ -1,0 +1,46 @@
+.todo__item {
+  color: white !important;
+  font-family: "Poppins", sans-serif !important;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
+  margin: 0 auto;
+  min-width: 250px;
+}
+
+.todo__details > * {
+  margin: 0;
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+ul {
+  margin: 0;
+}
+
+.todo__deadline {
+  font-weight: 600;
+}
+
+.todo__editDelete {
+  display: flex;
+  align-items: flex-end;
+}
+
+.todo__editDelete:hover {
+  cursor: pointer;
+}
+
+.todo__editButton {
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.todo__deleteButton {
+  padding: 5px;
+}
+.todo__deleteButton:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
